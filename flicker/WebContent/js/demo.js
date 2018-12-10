@@ -7,10 +7,10 @@ $(function () {
         // https://code.flickr.net/2014/04/30/flickr-api-going-ssl-only-on-june-27th-2014/
         url: 'https://api.flickr.com/services/rest/',
         data: {            
-            user_id: 'USERID',
+            user_id: '158137359@N04',
             format: 'json',
             method: 'flickr.people.getPublicPhotos',
-            api_key: 'APIKEY', // jshint ignore:line
+            api_key: 'e685c8d129ed348a38169f35da93ede9', // jshint ignore:line
         },
         dataType: 'jsonp',
         jsonp: 'jsoncallback'
